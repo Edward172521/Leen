@@ -12,12 +12,16 @@
             <div class="gif_container">
                 <img src="https://media.giphy.com/media/vyrlIFoDUar9zPv00Q/giphy.gif" alt="Cute animated illustration">
             </div>
-            <div class = "buttons">
+           <div class = "buttons">
                 <button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
-             <button class="btn" id="noButton" onclick="myFunction()">No.</button>
+              
+<button id="no" onclick="myFunction()">No.</button>
+
 <script>
 function myFunction() {
-    document.getElementById("noButton").innerHTML = "Acha hizo";}
+  document.getElementById("no").innerHTML = "Acha hizo!";
+}
+</script>
                 <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
                 <script>
                     function nextPage() {
